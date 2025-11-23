@@ -21,8 +21,26 @@ To write a Python program to:
 6. Display the updated list.
 
 ##  Program:
-Add Code Here
+```
+q = []
+n = int(input("Enter number of strings: "))
+for i in range(n):
+    val = input(f"Enter string {i+1}: ")
+    q.append(val)
 
+if len(q) >= 2:
+    q.pop()
+    q.pop()
+elif len(q) == 1:
+    q.pop()
+
+print("Updated list:", q)
+```
 ### Output:
+<img width="1416" height="817" alt="image" src="https://github.com/user-attachments/assets/d734f11d-83bc-4af5-8c77-b8a286514b69" />
+
 
 ## Result:
+Therefore the given Python Program has been executed successfully and the output has been verified.
+
+
